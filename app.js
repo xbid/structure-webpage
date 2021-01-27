@@ -1,7 +1,7 @@
 
-//var userInput = prompt('What do you do for living');
-//    console.log(userInput);
-// alert('Ok you are a ' + userInput + ' Thats Amazing');
+var userInput = prompt('What do you do for living');
+    console.log(userInput);
+ alert('Ok you are a ' + userInput + ' Thats Amazing');
 
 var marks = prompt('What Mark did you get in your tasks');
 if(marks >= 100 ){
@@ -23,6 +23,7 @@ button.addEventListener('click', function( event ) {
 });
 
 var color = confirm('Do you prefer to change page color ?');
+
 if(color == true){
     var switchcolor = prompt('Type in any color you want the page to turn on!','the color');
     document.body.style.backgroundColor = switchcolor;
