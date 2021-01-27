@@ -1,7 +1,7 @@
 
 var userInput = prompt('What do you do for living');
     console.log(userInput);
- alert('Ok you are a ' + userInput + ' Thats Amazing by the way', 'background: #222; color: #bada55');
+ alert('Ok you are a ' + userInput + ' Thats Amazing by the way');
 
 var marks = prompt('What Mark did you get in your tasks');
 if(marks >= 100 ){
@@ -11,5 +11,13 @@ if(marks >= 100 ){
 }else if (mark = 0 ){
     document.write('<h2>'+'what is this are you sleeping during the class get up i will help you'+'</h2>');
 }else{
-    alert('<h2>'+'Welcome! you can get what ever you want if you just focus'+'</h2>');
+    alert('<h2> ' + 'Welcome! you can get what ever you want if you just focus' + ' </h2>');
 };
+
+var button1 = document.querySelector("button");
+
+button1.addEventListener("click", function() {
+
+    document.body.classList.toggle("colorred");
+
+});
