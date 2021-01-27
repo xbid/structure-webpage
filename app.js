@@ -14,10 +14,10 @@ if(marks >= 100 ){
     alert('<h2> ' + 'Welcome! you can get what ever you want if you just focus' + ' </h2>');
 };
 
-var button1 = document.querySelector("button");
-
-button1.addEventListener("click", function() {
-
-    document.body.classList.toggle("colorred");
-
+var input = document.getElementById('color');
+var button = document.querySelector('button');
+button.addEventListener('click', function( event ) {
+   event.preventDefault();    
+   var color = input.value;
+   document.body.style.background = color;
 });
