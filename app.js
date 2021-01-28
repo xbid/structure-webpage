@@ -35,12 +35,12 @@
 //    console.log(i);
 // }
 
-var userName = prompt("Tell Us Your Name");
+// var userName = prompt("What is your age?");
 
-if (userName != null) {
-  alert("Welcome " + userName);
-} else {
-  alert("Welcome user");
+// if (userName <= 17) {
+//   alert("Welcome " + userName);
+// } else {
+//   alert("Welcome user");
 }
 // document.write('<h1>'+ 'Welcome '+userName+'</h1>'+'<br>');
 // function myFunction() {
