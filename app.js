@@ -75,7 +75,7 @@ moneyImg = '';
 for(i = 1 ; i <= userSal ; i++)
 {
   
-   moneyImg = moneyImg + '<img src= "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6b7c5fa6-b824-4430-b544-2102ad555fd1.jpg?source=next-opengraph&fit=scale-down&width=900" width="500px" >'
+   moneyImg = moneyImg + '<img src= "https://209859-635214-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/09/money_values.png" width="750px" >'
   
      console.log(moneyImg);
         
