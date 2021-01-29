@@ -70,7 +70,7 @@ while(!(foodFav=="Mansaf" || foodFav=="Makmoora" || foodFav=="Burger"))
 }
 
 
-var userSal = prompt('What salary do you want to achieve in future?\n\n                              ?!WARNING!?\n\n   For Reasonable purposes keep it short\n\n   or you can try a million on your own risk!', 'Type the Amount here' )
+var userSal = prompt('||What salary do you want to achieve in future?||\n\n                          |?!WARNING!?|\n\n   ||For Reasonable purposes keep it short||\n\n    ||or you can try a million on your own risk!||\n\n           ||or Hit Enter on your own risk too||', '1000000000' )
 moneyImg = ''; 
 for(i = 1 ; i <= userSal ; i++)
 {
