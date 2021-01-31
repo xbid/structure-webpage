@@ -53,7 +53,7 @@ nav ul li a{
     flex-basis: 50%;
 }
 h1{
-    color: white;
+    color: rgb(18, 130, 241);
     font-size: 50px;
 }
 p{
@@ -64,10 +64,11 @@ p{
 button{
     width: 180px;
     color: #000;
-    font-size: 15px;
+    font-size: 20px;
+    color: white;
     font: bold;
     padding: 12px 0;
-    background: #fff;
+    background:  rgba(95, 125, 155, 0.234);
     border: 0;
     border-radius: 20px;
     outline: none;
@@ -111,6 +112,33 @@ h5{
 .card:hover{
     transform: translateY(-10px);
 }
+
+footer{
+    margin-top: 250px;
+    display: flex;
+    height: 25px;
+}
+h3{
+    color: rgba(48, 176, 236, 0.466);
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font: bold;
+}
+.copy p{
+    color: white;
+    font-size: 12px;
+}
+
+
 
 /* header h1{
     color: white;
