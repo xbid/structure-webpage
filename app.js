@@ -59,7 +59,7 @@
 //   }
 
 // document.write(image)
-
+function orderingFood;
 var food= confirm('                 You are in the resturant\n\nAnd there is only these options in the Menu:\n\n           Mansaf  |  Makmooraa  |  Burger')
  
 var foodFav = prompt('What You are going to choose?'  , 'Mansaf or Makmooraa or Burger')
@@ -69,7 +69,7 @@ while(!(foodFav=="Mansaf" || foodFav=="Makmoora" || foodFav=="Burger"))
     foodFav = prompt("Enter one of these Meals Please", 'Mansaf or Makmooraa or Burger' )
 }
 
-
+function greeting;
 var userSal = prompt('||What salary do you want to achieve in future?||\n\n                          |?!WARNING!?|\n\n   ||For Reasonable purposes keep it short||\n\n    ||or you can try a million on your own risk!||\n\n           ||or Hit Enter on your own risk too||', '1000000000' )
 moneyImg = ''; 
 for(i = 1 ; i <= userSal ; i++)
@@ -78,12 +78,11 @@ for(i = 1 ; i <= userSal ; i++)
    moneyImg = moneyImg + '<img src= "https://209859-635214-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/09/money_values.png" width="750px" >'
   
      console.log(moneyImg);
-        
-    
-   
 
+
+     alert('Dream big Work Hard And You will achieve more than that')
+
+     document.write(moneyImg)
 }
-
-alert('Dream big Work Hard And You will achieve more than that')
-
-document.write(moneyImg)
+orderingFood();
+welcoming();
